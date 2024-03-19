@@ -1,0 +1,65 @@
+.certificados__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    margin: 4em 0 0 0;
+}
+
+.link__certificados {
+    text-decoration: none;
+    color: var(--cinza);
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.certificados {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.certificados__lista {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.lista__item {
+    padding: 3em;
+    background-color: #ECF4D6;
+    width: 20%;
+    list-style: none;
+    margin: 0 1em;
+    border-radius: 24px;
+    transition: padding 0.3s ease-in-out;
+}
+
+.item__container {
+    display: flex;
+    text-decoration: none;
+    color: #164863;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificados__imagem {
+    width: 6em;
+}
+
+.certificados__nome {
+    font-size: 20px;
+    margin-left: 0.5em;
+}
+
+.item__container:hover {
+    color: var(--verde-claro);
+
+}
+
+.lista__item:hover {
+    padding: 3.5em;
+    
+}

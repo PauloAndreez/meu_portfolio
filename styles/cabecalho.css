@@ -1,0 +1,47 @@
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 1% 1% ;
+    display: flex;
+
+}
+
+.cabecalho__links {
+    text-decoration: none;
+    color: var(--verde-claro);
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    text-align: center;
+    margin: 0 1em;
+    font-weight: 600;
+
+}
+
+.cabecalho__icone {
+    width: 1.5em;
+    margin: 0.5em 0.5em 0 0.5em;
+    
+}
+
+.cabecalho__menu {
+    width: 40px;
+    height: 30px;
+    background-image: url("../img/aviao-de-papel.svg");
+}
+
+.lista-menu {
+    display: none;
+    text-decoration: none;
+}
+
+.cabecalho__container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.lista-menu__item {
+    padding: 0.5em;
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho__links:hover {
+    color: var(--branco);
+}

@@ -1,0 +1,33 @@
+.resumo {
+    display: flex;
+    margin: 8em;
+    align-items: center;
+}
+
+.resumo__dreez {
+    border: 10px solid #005B41;
+    border-radius: 110%;
+}
+
+.resumo__texto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 7em;
+}
+
+.texto__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.resumo__strong {
+    color: #13ad9e;
+}
+
+.texto__paragrafo {
+    font-size: 20px;
+}
